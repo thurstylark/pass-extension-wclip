@@ -1,6 +1,8 @@
 # pass wclip
 
-An extension for the [password store](https://www.passwordstore.org/) that copies a stored password into the windows clipboard using [wclip](https://github.com/palortoff/wclip) to hide it from password history managers.
+An extension for the [password store](https://www.passwordstore.org/) that copies a stored password into the windows clipboard using clip.exe.
+
+Fork of palortoff/pass-extension-wclip for WSL rather than cygwin. Does not provide the same clipboard manager hiding capabilities, but works with recent WSL environments out of the box. 
 
 ## Usage
 ```
